@@ -314,4 +314,4 @@ url = gr.Interface(
     capture_session=True
 )
 print("Local URL: http://127.0.0.1:{}".format(url.test_port))
-url.launch(Share=False)
+url.launch(share=True) # Changed to share=True to make it accessible
