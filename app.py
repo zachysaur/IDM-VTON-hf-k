@@ -306,8 +306,4 @@ with image_blocks as demo:
 
     try_button.click(fn=start_tryon, inputs=[imgs, garm_img, prompt, is_checked,is_checked_crop, denoise_steps, seed], outputs=[image_out,masked_img], api_name='tryon')
 
-            
-
-
-image_blocks.launch()
 
